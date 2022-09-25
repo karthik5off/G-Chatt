@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gate Pass Index</title>
+</head>
+<body>
+
+    <table border="2px">
+        <thead>
+            <th>Name</th>
+            <th>Register No</th>
+            <th>Phone</th>
+            <th>Year</th>
+            <th>Department</th>
+            <th>Purpose</th>
+        </thead>
+        {%for i in range(n):%}
+        <tr>
+            <td>{{a[i]}}</td>
+            <td>{{b[i]}}</td>
+            <td>{{c[i]}}</td>
+            <td>{{d[i]}}</td>
+            <td>{{e[i]}}</td>
+            <td>{{f[i]}}</td>
+        </tr>
+        {%endfor%}
+    </table>
+    
+</body>
+</html>

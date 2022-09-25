@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>Gate Pass Generator</title>
+    </head>
+    <body>
+        <h1 style=text-align:center>Gate Pass Generator</h1>
+        <form action="{{url_for('home')}}" method="post">
+            <table>
+                <tr>
+                    <td>
+                        Name:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Name" name="name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Register No:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="8107******" name="regno">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone No:
+                    </td>
+                    <td>
+                        <input type="phone" placeholder="9876******" name="phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Year:
+                    </td>
+                    <td>
+                        <select name="year">
+                            <option>Select</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Dept:
+                    </td>
+                    <td>
+                        <select name="dept">
+                            <option>Select</option>
+                            <option>CSE</option>
+                            <option>AD</option>
+                            <option>CIVIL</option>
+                            <option>ECE</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date:
+                    </td>
+                    <td>
+                        <input type="date" name="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Time:
+                    </td>
+                    <td>
+                        <input type="time" name="time">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Purpose:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="ex.Medical Emergency" purpose="" name="purpose">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+        </table>
+    </form>
+    <a href="{{url_for('index')}}">Go to index</a> 
+    </body>
+</html>
