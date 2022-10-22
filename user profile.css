@@ -1,0 +1,95 @@
+.class {
+    color:dodgerblue;
+}
+.btn {
+    padding: 10px;
+    color:white;
+    cursor: pointer;
+
+}
+.btn-1{ 
+    background-color:midnightblue;
+    border-radius: 15px ;
+    width: 250px;
+    border-color: transparent;
+}
+.btn-2{ 
+    right: 50%;
+    background-color:midnightblue;
+    border-radius: 10px ;
+    width: 50px;
+    border-color: transparent;
+}
+div{
+    color: royalblue;
+}
+
+
+body{
+    background-color: rgb(100, 162, 237);
+}
+h1{
+    color:black;
+}
+.center {
+    border: 5px solid #FFFF00;
+    text-align:center;
+}
+.box{
+    left: 50px;
+    justify-content: center;
+    background-color:rgb(18, 101, 184) ;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 60px;
+    width: 400px;
+    height: 550px;
+    outline: transparent;
+    border-radius: 20px;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.rcorners{
+    border-radius: 25px ;
+    background: floralwhite;
+    border-color: transparent;
+    padding: 10px;
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+.input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+.icon {
+    padding: 6px;
+    min-width: 40px;
+}
+
+.usertext {
+    
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: 75px;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Rowdies;
+  font-weight: 50%;
+  line-height: 75%;
+  font-stretch: normal;
+  text-decoration: none;
+  cursor: pointer;
+    
+}
+
